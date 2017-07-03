@@ -1,0 +1,245 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color: #1E2420;
+}
+
+p {
+    font-size: 12px;
+    line-height: 2.2;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    /*text-align: justify;*/
+}
+
+a {
+    color:#fff;
+    font-size: 12px;
+    line-height: 2.2;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 66px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url('../images/header.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+header .header-content {
+    position: absolute;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
+}
+
+
+@media {
+  header {
+      min-height: 100%;
+  }
+
+  header .header-content {
+      position: absolute;
+      top: 50%;
+      padding: 0 50px;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+  }
+
+  header .header-content .header-content-inner {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 1000px;
+  }
+
+  header .header-content .header-content-inner p {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 80%;
+      font-size: 18px;
+  }
+}
+
+.front {
+  position: relative;;
+  margin-top: -200px;
+  margin-bottom: -700px;
+  z-index: 4;
+  height: 1064px;
+  background-position: center;
+  width: 100%;
+}
+
+.front-2 {
+  left: 0;
+  margin-bottom: -300px;
+  margin-top: -300px;
+  z-index: 3;
+  height: 564px;
+  background-position: center;
+  width: 100%;
+}
+
+.front-3 {
+  left: 0;
+  margin-bottom: -300px;
+  z-index: 3;
+  height: 601px;
+  background-position: center;
+  width: 100%;
+}
+
+.front-4 {
+  left: 0;
+  margin-top: -780px;
+  /*margin-bottom: -300px;*/
+  z-index: 3;
+  height: 822px;
+  background-position: center;
+  width: 100%;
+}
+
+/*.back {
+  position: absolute;
+z-index: 1;
+}*/
+
+.section-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.intro-mittig {
+	color: #fff;
+  /*background-color: #1E2420;*/
+  padding: 250px 0;
+  text-align: center;
+}
+
+.intro-qf-mittig {
+	color: #fff;
+  /*background-color: #1E2420;*/
+  padding-top: 130px;
+  text-align: center;
+}
+
+.mittig {
+	color: #fff;
+  /*background-color: #1E2420;*/
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.left {
+	color: #fff;
+  /*background-color: #1E2420;*/
+  padding: 100px 0;
+  text-align: center;
+  float:left;
+  width: 50%;
+}
+
+.right {
+	color: #fff;
+  /*background-color: #1E2420;*/
+  padding: 100px 0;
+  text-align: center;
+  float:right;
+  width: 50%;
+}
+
+.logo-titel {
+  margin-bottom: 40px;
+}
+
+.page-footer {
+  margin-top: 300px;
+	text-align: center;
+}
+
+.page-footer .mittig {
+  padding-bottom: 0;
+}
+
+.page-footer .contact {
+	padding: 100px 0;
+	background-color: yellowgreen;
+	color: #fff;
+}
+
+.page-footer .contact p {
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.page-footer .small-print {
+	padding: 50px 0 40px;
+	font-weight: 300;
+}
+
+.text-light {
+    color: rgba(255,255,255);
+}
+
+/*::-moz-selection {
+    text-shadow: none;
+    color: #fff;
+    background: #222;
+}*/
+
+/*::selection {
+    text-shadow: none;
+    color: #fff;
+    background: #222;
+}*/
+
+img::selection {
+    color: #fff;
+    background: 0 0;
+}
+
+img::-moz-selection {
+    color: #fff;
+    background: 0 0;
+}
+
+.bg-primary {
+    background-color: #1E2420;
+}
